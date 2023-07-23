@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <blockquote>
+        <h1>Welcome page</h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor voluptas itaque quo totam earum veniam modi ducimus cumque expedita neque pariatur, 
+            sint consequuntur aliquam alias excepturi. Soluta voluptates officia incidunt.
+        </p>
+    </blockquote>
+
+    <script>
+        let username = localStorage.getItem('username');
+        if(!username){
+            window.location.href = 'index.html';
+        }
+    </script>
+    
+</body>
+</html>

@@ -16,7 +16,7 @@ function getStudents(){
             <td>${student.status}</td>
             <td>
                 <button>Edit</button>
-                <button>Delete</button>
+                <button onclick="deleteData(${student.id})">Delete</button>
             </td>
         </tr>`
     });
@@ -49,3 +49,11 @@ document.querySelector("#addRecord").addEventListener('click',function(e){
     getStudents();
     studentId++;
    });
+
+
+   function deleteData(id){
+         let index = students.findIndex((student)=>student.id==id);
+         console.log(index);
+         students.splice(index,1);
+         getStudents();
+   }
