@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width:300px;
+            height: 300px;
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+    <blockquote>
+        <div class="box"></div>
+    </blockquote>
+
+
+    <script>
+        let colors =['red','blue','green','yellow'];
+        let box = document.querySelector('.box');
+        setInterval(function(){
+            let random = Math.floor(Math.random()*colors.length);
+            box.style.background = colors[random];
+        },2000);
+        
+    </script>
+    
+</body>
+</html>

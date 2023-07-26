@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 90%;
+            margin: auto;
+        }
+        .slider{
+            width: 100%;
+            height: 400px;
+        }
+        .slider img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="slider">
+            <img src="./images/a.jpg" alt="">
+        </div>
+        <div class="slider">
+            <img src="./images/b.png" alt="">
+        </div>
+        <div class="slider">
+            <img src="./images/c.png" alt="">
+        </div>
+    </div>    
+
+    <script>
+        let i = 0;
+        function imageSlier(){
+            let slider = document.querySelectorAll('.slider');
+            let len = slider.length;
+            for(let j = 0; j < len; j++){
+               let a = slider[j].style.display = 'none';
+            }
+            i++;
+
+            if(i > len){
+                i = 1;
+            }
+            slider[i - 1].style.display = 'block';
+            setTimeout(imageSlier, 2000);
+        }
+
+        imageSlier();
+        
+
+    </script>
+</body>
+</html>

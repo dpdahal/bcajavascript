@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "ram",
+      "gender": "male"
+    },
+    {
+      "id": 3,
+      "name": "laxmi",
+      "gender": "female"
+    },
+    {
+      "name": "gopali",
+      "gender": "female",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "hari",
+      "email": "hari@gmail.com",
+      "gender": "male",
+      "language": [
+        "nepali",
+        "chinese",
+        "hindi"
+      ],
+      "country": "nepal"
+    },
+    {
+      "id": "2",
+      "name": "sita",
+      "email": "sita@gmail.com",
+      "gender": "female",
+      "language": [
+        "chinese",
+        "hindi"
+      ],
+      "country": "china"
+    },
+    {
+      "name": "Willow Tate",
+      "email": "siroqipo@mailinator.com",
+      "gender": "female",
+      "language": [
+        "nepali",
+        "chinese",
+        "hindi"
+      ],
+      "country": "nepal",
+      "id": "9I9qJoX"
+    },
+    {
+      "name": "Seth Petty",
+      "email": "caxobipi@mailinator.com",
+      "gender": "female",
+      "language": [
+        "nepali"
+      ],
+      "country": "china",
+      "id": "8PjlxoC"
+    },
+    {
+      "name": "Remedios Webster",
+      "email": "manojynud@mailinator.com",
+      "gender": "female",
+      "language": [
+        "nepali",
+        "chinese"
+      ],
+      "country": "nepal",
+      "id": "Jv7CfQ9"
+    },
+    {
+      "name": "Quon Barr",
+      "email": "parinojose@mailinator.com",
+      "gender": "male",
+      "language": [
+        "nepali",
+        "chinese",
+        "hindi"
+      ],
+      "country": "india",
+      "id": "BtqQmAO"
+    },
+    {
+      "name": "Basia Tate",
+      "email": "kati@mailinator.com",
+      "gender": "female",
+      "language": [
+        "chinese",
+        "hindi"
+      ],
+      "country": "nepal",
+      "id": "QlMTOLD"
+    },
+    {
+      "name": "Buffy Mcmahon",
+      "email": "myhenoqahe@mailinator.com",
+      "gender": "female",
+      "language": [
+        "nepali",
+        "chinese",
+        "hindi"
+      ],
+      "country": "india",
+      "id": "6Nf4FYF"
+    },
+    {
+      "name": "Griffin Young",
+      "email": "sawijuwyve@mailinator.com",
+      "gender": "female",
+      "language": [
+        "hindi"
+      ],
+      "country": "india",
+      "id": "Kj2BPxe"
+    },
+    {
+      "name": "Sawyer Wise",
+      "email": "derifuluja@mailinator.com",
+      "gender": "male",
+      "language": [
+        "nepali",
+        "chinese",
+        "hindi"
+      ],
+      "country": "india",
+      "id": "cnvbfW9"
+    },
+    {
+      "name": "Chandler Decker",
+      "email": "bykuxukyl@mailinator.com",
+      "gender": "male",
+      "language": [
+        "hindi"
+      ],
+      "country": "china",
+      "id": "DqlbDZG"
+    },
+    {
+      "name": "Honorato Mcdowell",
+      "email": "kijutuwov@mailinator.com",
+      "gender": "female",
+      "language": [
+        "chinese",
+        "hindi"
+      ],
+      "country": "nepal",
+      "id": "OAPHnEU"
+    },
+    {
+      "name": "Hedda Fox",
+      "email": "tivunuwywi@mailinator.com",
+      "gender": "male",
+      "language": [
+        "nepali"
+      ],
+      "country": "nepal",
+      "id": "f-W2jYi"
+    }
+  ]
+}
