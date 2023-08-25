@@ -1,5 +1,3 @@
-
-
 function showData(){
     try{
         fetch("http://localhost:3000/students").then((response)=>{
@@ -17,7 +15,7 @@ function showData(){
                         <td>${student.country}</td>
                         <td>
                             <button class="btn btn-primary"><i class="bi bi-pencil-square"></i></button>
-                            <button class="btn btn-danger"><i class="bi bi-trash3-fill"></i></button>
+                            <button class="btn btn-danger" onclick="deleteRecord('${student.id}')"><i class="bi bi-trash3-fill"></i></button>
                         </td>
                     </tr>
                     `;
@@ -81,6 +79,27 @@ document.getElementById("addRecord").addEventListener("click",async(e)=>{
     .catch((err)=>{
         console.log("Error: "+err);
     })
-    return false;
 
 });
+
+
+ function getById(id){
+   return fetch("http://localhost:3000/students/"+id);
+}
+
+
+
+function deleteRecord(id){
+   fetch("http://localhost:3000/students/"+id,{
+        method:"DELETE"
+        }).then((response)=>{
+            return response.json();
+        }
+        ).then((data)=>{
+            console.log(data);
+            showData();
+        }).catch((err)=>{
+            console.log("Error: "+err);
+        })                
+          
+}
